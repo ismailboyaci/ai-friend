@@ -1,8 +1,10 @@
+import { UserButton } from "@clerk/nextjs"
+
 
 export default function RootPage() {
   return (
     <div>
-      root page (protected)
+      root protected
     </div>
   )
 }
